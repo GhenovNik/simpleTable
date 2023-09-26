@@ -1,0 +1,33 @@
+/* FancyTableComponent.css */
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+.table td {
+    text-align: left;
+    padding: 12px 15px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.table tr:nth-child(even) td {
+    background: #f2f2f2;
+}
+
+.table tr:hover td {
+    background: #ddd;
+    cursor: pointer;
+}
